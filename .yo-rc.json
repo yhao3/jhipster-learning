@@ -1,0 +1,61 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "session",
+    "baseName": "jhipsterlearning",
+    "blueprints": [],
+    "buildTool": "maven",
+    "cacheProvider": "ehcache",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1668239379787,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "devServerPort": 9060,
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "languages": ["en", "zh-tw"],
+    "messageBroker": false,
+    "microfrontend": false,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-es-entity-reindexer",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-postgres-uuid",
+        "version": "0.0.6"
+      },
+      {
+        "name": "generator-jhipster-gql",
+        "version": "0.1.2"
+      }
+    ],
+    "packageName": "org.yhao3.jhipsterlearning",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": false,
+    "rememberMeKey": "1065b2e4d6f9f0f85818e49109ea28dd8c223ad6cce0686205893578e7b12bdbfe8a571650d3cb673972aa85d82567bcf685",
+    "searchEngine": "elasticsearch",
+    "serverPort": "8080",
+    "serverSideOptions": ["searchEngine:elasticsearch"],
+    "serviceDiscoveryType": "no",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipUserManagement": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}
