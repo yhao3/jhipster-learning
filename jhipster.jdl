@@ -1,0 +1,51 @@
+enum Sex {
+    OTHER
+    MALE
+    FAMALE
+}
+
+/**
+ * The ProductCategory entity.
+ * @author yhao3
+ */
+entity ProductCategory {
+    /** product category name */
+    productCategoryName String required
+    isShow Boolean required
+}
+/**
+ * The Product entity.
+ * @author yhao3
+ */
+entity Product {
+    /** product name */
+    productName String required
+    price Double required min(0)
+    stock Integer required min(0)
+}
+/**
+ * The Member entity.
+ * @author yhao3
+ */
+entity Member {
+    /** member name */
+    memberName String required
+    /** member sex */
+    sex Sex required
+}
+
+dto ProductCategory, Product with mapstruct
+
+
+/**
+ * One to many relationship.
+ */
+relationship OneToMany {
+    ProductCategory to Product
+}
+
+paginate * with infinite-scroll
+paginate * with pagination
+
+service * with serviceClass
+service * with serviceImpl

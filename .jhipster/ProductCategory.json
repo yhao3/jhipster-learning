@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20221113172525",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "product_category",
+  "fields": [
+    {
+      "fieldName": "productCategoryName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"],
+      "javadoc": "product category name"
+    },
+    {
+      "fieldName": "isShow",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "The ProductCategory entity.\\n@author yhao3",
+  "jpaMetamodelFiltering": false,
+  "name": "ProductCategory",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "productCategory",
+      "relationshipName": "product",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

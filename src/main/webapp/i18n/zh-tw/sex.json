@@ -1,0 +1,10 @@
+{
+  "jhipsterlearningApp": {
+    "Sex": {
+      "null": "",
+      "OTHER": "OTHER",
+      "MALE": "MALE",
+      "FAMALE": "FAMALE"
+    }
+  }
+}

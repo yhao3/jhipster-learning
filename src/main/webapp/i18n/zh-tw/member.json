@@ -1,0 +1,30 @@
+{
+  "jhipsterlearningApp": {
+    "member": {
+      "home": {
+        "title": "Members",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Member",
+        "createOrEditLabel": "建立或編輯 Member",
+        "search": "搜尋 Member",
+        "notFound": "No Members found"
+      },
+      "created": "新的 Member 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Member 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Member 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Member {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Member"
+      },
+      "id": "ID",
+      "memberName": "Member Name",
+      "sex": "Sex",
+      "help": {
+        "memberName": "member name",
+        "sex": "member sex"
+      }
+    }
+  }
+}
